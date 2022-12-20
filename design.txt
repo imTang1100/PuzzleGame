@@ -1,0 +1,5 @@
+In my puzzle game, the background picture is in dark color. So all the lines & words are in white to jump out from the background picture. If all you see is white on the screen. Don't panic! Check background2.gif in Resources :)
+
+For the coding strategy, I wrote the two primary classes. Class start_game is used to save user input data (player’s name, goal steps, etc.). Class game_time executes the process of the puzzle game (create and update dictionary and list, decide the win condition, and so on).
+
+Because of unknown reasons, sometimes the turtle object’s clear function is not working. So I use the hideturtle() instead, which might lead to slow running speed. Hence clicking at a reasonable rate is highly recommended.
